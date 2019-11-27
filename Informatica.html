@@ -11,7 +11,7 @@
 body {
   background-color: rgb(255,222,122);
   font-family: sans-serif;
-	}
+}
 h1 {
   color: maroon;
   background-color: white;
@@ -20,15 +20,6 @@ h1 {
 table, th {
   border: 1px solid black;
   background-color: white;
-}
-img {
-  border: 1px solid black;
-}
-fieldset {
-  padding: 0 1em 1em 1em;
-}
-legend {
-  padding: 1em;
 }
 </style>
 	
@@ -98,18 +89,20 @@ legend {
 	</ul>
 	
 	
-	<h2 id="Ask a Question"><strong>Ask a Question</strong></h2>
-	<form action="contactus.php" method="post">
-
-    <Fieldset>
-	    <legend>Community Q&A </legend>
-	    </fieldset>
-    <p><input type="text" name="question" value="What do you need to know? We'll do our best to find the answer."></p>
-    <p><input type="submit"></p>
-
+<h2 id="Ask a Question"><strong>Ask a Question</strong></h2>
+	
+<form>
+ <Fieldset>
+  <legend>Community Q&A </legend>   
+   <p>What do you need to know? We'll do our best to find the answer.</p>
+   Question: <input type="text">
+   <input type="submit">
+ </fieldset>
 </form>
-	<h2 id="Feedback"><strong>Awesome!</strong></h2>
-	<form action="someplace.php" method="post">
+	
+<h2 id="Feedback"><strong>Awesome!</strong></h2>
+	
+<form action="someplace.php" method="post">
 	<p>We love success stories. If you have a minute more, can you share a sentence or two about how this article helped you?</p>
 	<p><textarea name="story" rows="5" cols="20">Your success story here...</textarea></p>
 	<p><input type="text" name="name" value="First name (required to post)"></p> <p><input type="text" name="name" value="Last name (required to post)"></p>
